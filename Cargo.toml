@@ -1,0 +1,12 @@
+[package]
+name = "fisher-rao"
+version = "0.1.0"
+edition = "2024"
+description = "Fisher-Rao metric, Cramér-Rao bound, information matrix, and Rao distance for parametric families"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/fisher-rao"
+keywords = ["statistics", "fisher-information", "rao-distance", "cramer-rao", "information-geometry"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
